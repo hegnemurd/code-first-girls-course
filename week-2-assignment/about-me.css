@@ -1,0 +1,75 @@
+html {
+  background-image: url("./space.jpg");
+  background-size: cover;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  background: rgba(253, 253, 253, 0.082);
+  border-radius: 20px;
+  background-size: cover;
+  padding: 5px;
+  margin: 0px;
+}
+
+.long {
+  border: 1px solid #0088a9;
+  border-radius: 50px;
+  margin: 10px 50px;
+  padding: 15px;
+}
+
+.short {
+  border: 1px solid #0088a9;
+  border-radius: 50px;
+  margin: 10px 200px;
+  padding: 15px;
+}
+
+.extra-short {
+  border: 1px solid #0088a9;
+  border-radius: 50px;
+  margin: 10px 300px;
+  padding: 15px;
+}
+
+p a {
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+p a:hover {
+  color: #0088a9;
+}
+
+hr {
+  border: 0;
+  height: 0.05em;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.strong {
+  color: #0088a9;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+nav a:hover {
+  color: #0088a9;
+}

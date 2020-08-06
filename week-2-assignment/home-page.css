@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  background-image: url(./space.jpg);
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+  color: #0088a9;
+}
+
+a button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  border: 0.5px solid rgba(0, 136, 169, 1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  color: rgba(0, 136, 169, 0.8);
+}
+
+li,
+a,
+button {
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+main {
+  color: #edf0f1;
+}
+
+h1 {
+  padding: 2px;
+}
+
+.image {
+  height: 250px;
+  border-radius: 130px;
+}
+
+footer {
+  color: #edf0f1;
+}
+
+.block-one {
+  border: 1px solid #0088a9;
+  border-radius: 50px;
+  margin: 10px 200px;
+  padding: 15px;
+}
+
+.gif {
+  width: 20rem;
+}
+
+.block-two {
+  border: 1px solid #0088a9;
+  border-radius: 50px;
+  margin: 10px 10px;
+  padding: 15px;
+}
