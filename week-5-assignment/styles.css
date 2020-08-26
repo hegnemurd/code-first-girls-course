@@ -1,0 +1,50 @@
+* {
+  text-align: center;
+  background: #f1b5ad;
+}
+
+h1 {
+  color: deepskyblue;
+  font-size: 40px;
+}
+
+sub {
+  font-size: 25px;
+  background-color: #74d1ff;
+}
+
+sub:hover {
+  background-color: #838e94;
+  cursor: pointer;
+}
+
+sup {
+  background-color: #74d1ff;
+}
+
+sup:hover {
+  background-color: #838e94;
+  cursor: pointer;
+}
+
+button {
+  font-size: 25px;
+  border: 1px solid #74d1ff;
+  border-radius: 10px;
+  background-color: #74d1ff;
+}
+
+button:hover {
+  background-color: #838e94;
+  cursor: pointer;
+}
+
+#calculator-one {
+  height: 17em;
+  width: 19em;
+}
+
+#calculator-two {
+  height: 17em;
+  width: 19em;
+}
