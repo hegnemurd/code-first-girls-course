@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 5 Assignment</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <header><h1>Simple Calculator</h1></header>
+    <main>
+      <div>
+        <nav>
+          <div>
+            <button class="sum" onclick="onClickSum()">x + y</button>
+            <p id="sumValue"></p>
+          </div>
+          <div>
+            <button class="subtract" onclick="onClickSubtract()">x - y</button>
+            <p id="subtractValue"></p>
+          </div>
+          <div>
+            <button class="multiply" onclick="onClickMultiply()">
+              x <sub>*</sub> y
+            </button>
+            <p id="multiplyValue"></p>
+          </div>
+          <div>
+            <button class="divide" onclick="onClickDivide()">x ÷ y</button>
+            <p id="divideValue"></p>
+          </div>
+          <div>
+            <button class="power" onclick="onClickPower()">
+              x<sup>y</sup>
+            </button>
+            <p id="powerValue"></p>
+          </div>
+          <div>
+            <button class="square-root" onclick="onClickSquare()">√x</button>
+            <p id="squareValue"></p>
+          </div>
+          <img
+            id="calculator-two"
+            src="./calculator2.gif"
+            alt="calculator"
+          /><img id="calculator-one" src="./calculator1.gif" alt="calculator" />
+        </nav>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
