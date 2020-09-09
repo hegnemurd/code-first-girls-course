@@ -1,0 +1,10 @@
+nav {
+  background-color: rgb(140, 170, 197);
+}
+
+body {
+  background-image: url("./covid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

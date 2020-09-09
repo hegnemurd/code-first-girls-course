@@ -1,0 +1,28 @@
+nav {
+  background-color: rgb(140, 170, 197);
+}
+
+#covid-button button:hover {
+  background-color: rgb(140, 170, 197);
+}
+
+.card {
+  width: 18rem;
+  background-color: rgb(140, 170, 197);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+#vegan-menu {
+  height: 190px;
+}
+
+#special-menu {
+  height: 190px;
+}
+
+#find-us {
+  height: 190px;
+}
